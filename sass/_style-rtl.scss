@@ -43,6 +43,11 @@ html[dir=rtl] {
             padding-left: 3rem;
         }
     }
+    .pagination-part .pagination .page-link {
+        i {
+            @include transform(rotate(180deg))
+        }
+    }
 
     footer {
         .footer-content {
