@@ -1,0 +1,60 @@
+extends index
+
+block title_block
+    title elite | single product
+
+block index_block
+    // broadcrumb part
+    section(class="broadcrumb" style="background-image: url(images/slider/slider-1.jpg);")
+        div(class="container")
+            div(class="title")
+                h2 single product
+                p single product details
+    // broadcrumb part
+
+    // single product page
+    section(class="single-product")
+        div(class="container")
+            //- div(class="title")
+                h2 our products
+                p Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam voluptates nobis accusantium similique at.
+            div(class="single-product-content")
+                div(class="row justify-content-center")
+                    div(class="col-10")
+                        div(style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff", class="swiper single_page_swiper")
+                            div(class="swiper-wrapper")
+                                div(class="swiper-slide")
+                                    div(class="image", data-swiper-parallax="-800")
+                                        img(src="images/slider/slider-1.jpg", alt="")
+                                div(class="swiper-slide")
+                                    div(class="image", data-swiper-parallax="-800")
+                                        img(src="images/slider/slider-1.jpg", alt="")
+                                div(class="swiper-slide")
+                                    div(class="image", data-swiper-parallax="-800")
+                                        img(src="images/slider/slider-1.jpg", alt="")
+                            div(class="swiper-button-next")
+                            div(class="swiper-button-prev")
+                            div(class="swiper-pagination")
+                    div(class="col-10")
+                        div(class="product-details")
+                            h2 name of product
+                            p Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, dolores tempora. Porro, adipisci, enim libero repellendus necessitatibus fuga illum
+                            hr
+                            h4 
+                                strong This is bold: 
+                                | this is text details.
+                            ul
+                                li Lorem dolor sit amet adipisicing elit.
+                                li Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                li Lorem ipsum dolor sit amet consectetur.
+                                li Lorem dolor sit consectetur adipisicing elit.
+                            hr
+                            h4 
+                                strong This is bold: 
+                                | this is text details.
+                            ul
+                                li Lorem dolor sit amet adipisicing elit.
+                                li Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                li Lorem ipsum dolor sit amet consectetur.
+                                li Lorem dolor sit consectetur adipisicing elit.
+    // single product page
